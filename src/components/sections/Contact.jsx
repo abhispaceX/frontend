@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import styled from "styled-components";
-import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
 
 const Container = styled.div`

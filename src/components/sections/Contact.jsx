@@ -129,6 +129,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    alert("your form  has been submitted successfully");
     console.log(data)
     const formData = new FormData();
     for (const key in data) {
